@@ -64,7 +64,7 @@ header #branding{
     float:left;
 }
 
-hedaer #branding h1{
+header #branding h1{
 
 margin : 0;
 }
@@ -104,7 +104,6 @@ header a:hover{
 }
 
 #showcase p {
-
     font-size:20px;
 }
 
@@ -112,29 +111,25 @@ header a:hover{
 
 #newsletter{
     background: #35424a;
-   color: #ffffff;
-    padding-top: 30px;
-    min-height: 70px;
+    color: #ffffff;
     border-bottom: #e8491d 3px solid;
 
-}
-
-#newsletter h1{
-    float:left;
-}
-
-#newsletter form{
-
-    float:right;
-    margin-top:0;
-    
-}
+} 
 
 #newsletter input[type="email"]{
-    padding:4px;
-    height:25px;
-    width:250px;
+  width: 40%;
+  padding: 7px;
+ margin: 0px;
+
 }
+
+.button_1{
+    background-color: #e8491d;
+    color: azure;
+    font-size: medium;
+    width: 100px;
+    padding: 5px;
+  }
 
 /* Boxes  */
 
@@ -233,24 +228,3 @@ ul#services li{
     }
 
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
